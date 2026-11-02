@@ -1,4 +1,4 @@
-name: bila
+name: bilal
 on: 
  push:
    branches: [main]
@@ -8,7 +8,6 @@ jobs:
     steps:
        - name: greeting
          run: echo "hello world"   
-    
      
    
    
