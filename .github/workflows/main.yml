@@ -1,15 +1,13 @@
 name: AbdullahAkhter
 
-
-on: 
-  push: 
+on:
+  push:
     branches: [main]
-
 
 jobs:
   demo:
     runs-on: ubuntu-latest
+
     steps:
       - name: greeting
-      run: echo "abdullah dhffhfhf"
-    
+        run: echo "abdullah dhffhfhf"
