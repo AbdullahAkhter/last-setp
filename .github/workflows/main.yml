@@ -1,15 +1,18 @@
-name: bilal
-on: 
- push:
-   branches: [main]
+
+name: bila
+
+on:
+  push:
+    branches: [main]
+
 jobs:
-   demo:
+  demo:
     runs-on: ubuntu-latest
+
     steps:
-       - name: greeting
-         run: echo "hello world"   
-     
-   
+      - name: greeting
+        run: echo "hello world"
+
    
      
       - 
