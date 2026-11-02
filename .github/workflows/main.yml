@@ -1,13 +1,13 @@
-name: Bila
+name: bila
 on: 
- push: 
+ push:
    branches: [main]
 jobs:
-  new:
-   runs-on: ubuntu-latest
-   steps:
-    - name: greeting
-    run: echo "hfhhhfhfhfhf"
+   bilatennis:
+    runs-on: ubuntu-latest
+    steps:
+       - name: greeting
+         run: echo "hello world"   
     
      
    
